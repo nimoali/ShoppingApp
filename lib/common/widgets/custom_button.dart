@@ -30,3 +30,12 @@ class CustomButton extends StatelessWidget {
     );
   }
 }
+
+class VoidCallback {
+}
+
+class Colors {
+}
+
+class ElevatedButton {
+}
