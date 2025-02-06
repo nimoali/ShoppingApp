@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 
+import '../../providers/Route.dart';
+
 class Loader extends StatelessWidget {
-  const Loader({Key? key}) : super(key: key);
+  const Loader({Set? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
