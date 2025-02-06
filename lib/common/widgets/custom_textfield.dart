@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../../providers/Route.dart';
+
 class CustomTextField extends StatelessWidget {
   final TextEditingController controller;
   final String hintText;
@@ -34,4 +36,7 @@ class CustomTextField extends StatelessWidget {
       maxLines: maxLines,
     );
   }
+}
+
+class TextEditingController {
 }

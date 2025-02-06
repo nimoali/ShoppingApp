@@ -15,3 +15,9 @@ class NewScreen extends StatelessWidget {
     );
   }
 }
+
+class StatelessWidget {
+}
+
+class Scaffold {
+}
