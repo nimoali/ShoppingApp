@@ -7,7 +7,7 @@ import 'package:amazon_clone_tutorial/models/order.dart';
 import 'package:flutter/material.dart';
 
 class Orders extends StatefulWidget {
-  const Orders({Key? key}) : super(key: key);
+  const Orders({Key? key}) : super (key: key);
 
   @override
   State<Orders> createState() => _OrdersState();
@@ -18,7 +18,7 @@ class _OrdersState extends State<Orders> {
   final AccountServices accountServices = AccountServices();
 
   @override
-  void initState() {
+  void initState() { 
     super.initState();
     fetchOrders();
   }
@@ -36,7 +36,7 @@ class _OrdersState extends State<Orders> {
             children: [
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
+                children: [ 
                   Container(
                     padding: const EdgeInsets.only(
                       left: 15,
@@ -54,7 +54,7 @@ class _OrdersState extends State<Orders> {
                       right: 15,
                     ),
                     child: Text(
-                      'See all',
+                      'See all', 
                       style: TextStyle(
                         color: GlobalVariables.selectedNavBarColor,
                       ),
