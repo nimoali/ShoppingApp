@@ -27,6 +27,8 @@ class SingleProduct extends StatelessWidget {
             image,
             fit: BoxFit.fitHeight,
             width: 180,
+            height: 180,
+            alignment: Alignment.center,
           ),
         ),
       ),
