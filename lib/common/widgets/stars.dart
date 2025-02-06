@@ -4,6 +4,7 @@ import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 
 class Stars extends StatelessWidget {
   final double rating;
+
   const Stars({
     Key? key,
     required this.rating,
@@ -16,7 +17,7 @@ class Stars extends StatelessWidget {
       itemCount: 5,
       rating: rating,
       itemSize: 15,
-      itemBuilder: (context, _) => const Icon(
+      itemBuilder: (context, index) => Icon(
         Icons.star,
         color: GlobalVariables.secondaryColor,
       ),
