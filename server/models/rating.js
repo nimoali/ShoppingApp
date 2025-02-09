@@ -8,7 +8,10 @@ const ratingSchema = mongoose.Schema({
   rating: {
     type: Number,
     required: true,
+    
   },
+
+
 });
 
 module.exports = ratingSchema;
