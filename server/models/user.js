@@ -6,10 +6,13 @@ const userSchema = mongoose.Schema({
     required: true,
     type: String,
     trim: true,
+    
   },
   email: {
     required: true,
+
     type: String,
+
     trim: true,
     validate: {
       validator: (value) => {
