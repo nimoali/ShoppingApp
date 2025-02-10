@@ -6,6 +6,7 @@ class Stars extends StatelessWidget {
   final double rating;
 
   const Stars({
+    required this.rating,
     Key? key,
     required this.rating,
   }) : super(key: key);
