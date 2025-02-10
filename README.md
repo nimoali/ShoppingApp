@@ -1,6 +1,6 @@
 Shopping App
 
-Full Stack Shopping App along with Admin Panel
+ecommerce Shopping App along with Admin Panel
 
 Features
 
