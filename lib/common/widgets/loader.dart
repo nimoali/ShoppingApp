@@ -3,7 +3,9 @@ import 'package:flutter/material.dart';
 import '../../providers/Route.dart';
 
 class Loader extends StatelessWidget {
+
   const Loader({Set? key}) : super(key: key);
+
 
   @override
   Widget build(BuildContext context) {
@@ -13,5 +15,6 @@ class Loader extends StatelessWidget {
     return const Center(
       child: CircularProgressIndicator(),
     );
+    
   }
 }
