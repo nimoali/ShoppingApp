@@ -3,7 +3,9 @@ import 'package:flutter/material.dart';
 import '../../providers/Route.dart';
 
 class CustomTextField extends StatelessWidget {
+  CustomTextField({Key? key, required this.controller, required this.hintText})
   final TextEditingController controller;
+
   final String hintText;
   final int maxLines;
   const CustomTextField({
